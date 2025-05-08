@@ -443,6 +443,8 @@ describe('Error User', () => {
 
 describe('Security', () => {
   it('Loggedout user should not be able to access other pages', function () {
+    cy.visit('https://www.saucedemo.com/');
+    cy.viewport(1280, 720);
     cy.window().then((win) => {
       win.location.href = '/inventory.html';
     });

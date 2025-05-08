@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "cypress": "^14.3.2"
+    "cypress": "^14.3.2",
+    "cypress-mochawesome-reporter": "^3.8.2"
   },
   "name": "cypress-testing-sauce-demo",
   "description": "",
